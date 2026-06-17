@@ -44,7 +44,31 @@
             <input type="text" id="nome" name="nome" required>
 
             <label for="contato">E-mail ou WhatsApp</label>
-            
+            <input type="text" id="" name="contato" name="contato" required>
+
+            <label for="tipo_equipamento">Tipo de equipamento:</label>
+            <select name="Tipo_de_equipamento" id="Tipo_de_equipamento">required
+                <option value="">Seleciona...</option>
+                <option value="computador">Computador / Notebook0</option>
+                <option value="celular">Celular/ Tablet</option>
+                <option value="periférico">Periférico (Teclado, Mouse, Cabos)</option>
+                <option value="bateria">Pilhas e Baterias</option>
+                <option value="outro">Outros (Especifique abaixo) </option>
+            </select>
+            <label for="estado">Estado do Equipamento:</label>
+            <select id="estado" name="estado" required>
+                <option value="funcionando">Funcionando (Doação):</option>
+                <option value="estragado">Estragado (Descarte / Reciclagem)</option>
+                <option value="parcial">Funcionando parcialmente (Pode render peças)</option>
+            </select>
+
+            <label for="descricao">Descrição (Marca / modelo/ problema se houver): </label>
+            <textarea id="descricao" name="descricao" rows="4"></textarea>
+
+            <button type="submit">Registrar Equipamento</button>
+        </form>
+    <div>
+
 
         </form>
     </div>
